@@ -1,0 +1,74 @@
+/* General Rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fredoka', cursive;
+}
+
+/* Header Rules */
+header{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+}
+
+header > h1{
+    font-family: 'Fredoka One', cursive;
+    margin: 30px;
+    color: #e53170;
+}
+
+/* Main Rules */
+.row{
+    width: 75%;
+    margin: 0 auto 40px;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Card Rules */
+.card{
+    background-color: #0f0e17;
+    width: 300px;
+    height: 100%;
+}
+
+.text{
+    padding: 5px 0px 0px 10px;
+    line-height: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+.text > h3{
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.text > h3:hover{
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text, .card > img{
+    float: left;
+    height: 100%;
+}
+
+.text > a{
+    text-decoration: none;
+    color: #33a4e0;
+}
+
+.text > a:hover{
+    color: purple;
+}
+
