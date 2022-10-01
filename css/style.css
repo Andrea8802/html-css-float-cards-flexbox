@@ -27,48 +27,70 @@ header > h1{
 .row{
     width: 75%;
     margin: 0 auto 40px;
-    height: 85px;
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 /* Card Rules */
 .card{
     background-color: #0f0e17;
     width: 300px;
-    height: 100%;
-}
-
-.text{
-    padding: 5px 0px 0px 10px;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 85px;
+    background-position-y: center;
+    padding: 5px 0px 0px 100px;
+    word-wrap: break-word;
     line-height: 25px;
-    color: white;
-    overflow: hidden;
 }
 
-.text > h3{
+.card.one{
+    background-image: url("../img/male1.png");
+}
+
+.card.two{
+    background-image: url("../img/female1.png");
+}
+
+.card.three{
+    background-image: url("../img/male2.png");
+}
+
+.card.four{
+    background-image: url("../img/female2.png");
+}
+
+.card.five{
+    background-image: url("../img/male3.png");
+}
+
+.card.six{
+    background-image: url("../img/female3.png");
+}
+
+.card > h3{
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
     font-size: 16px;
 }
 
-.text > h3:hover{
+.card > h3:hover{
     font-size: 17px;
     text-decoration: underline;
     cursor: pointer;
 }
 
-.text, .card > img{
-    float: left;
-    height: 100%;
+.card > img{
+    width: 85px;
 }
 
-.text > a{
+.card > a{
     text-decoration: none;
     color: #33a4e0;
 }
 
-.text > a:hover{
+.card > a:hover{
     color: purple;
 }
 
